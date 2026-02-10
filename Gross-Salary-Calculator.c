@@ -7,9 +7,9 @@ int main()
     float ta = 8;
 
     printf("Enter base salary: ");
-    scanf("%f",&b);
+    scanf("%f", &b);
 
-    printf("Gross Salary is : %f",b + (b * hra / 100) + (b * da / 100) + (b * ta / 100));
+    printf("Gross Salary is : %f", b + (b * hra / 100) + (b * da / 100) + (b * ta / 100));
 
     return 0;
 }
